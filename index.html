@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Taskin</title>
-    <link rel="icon" type="image/png" href="/favicon.png"/>
-    <link rel='stylesheet' href="style.css"/>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
-    crossorigin="anonymous"
-  />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-device-width: 300px) and (max-device-width: 500px)"
+      href="mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-device-width: 500px)"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="todo-container">
-        <h1 class="todo-heading">
-            Tasks
-        </h1>
-        <div class="todo-form">
-            <form class="form">
-               <input type="text" class="todo-input" placeholder="Add a task">
-               
-               <button type="submit" class="todo-button"><i class="fas fa-plus-square fa-2x" ></i></button>
-               
-            </form>
-        </div>
-        <div class="todo-uncompleted">
-            Remaining
-        </div>
-        <div>
-            <div class="todo-list">
-               
-                
-            </div>
-        </div>
-        <div class="todo-completed">
-            Completed
-        </div>
+      <h1 class="todo-heading">Tasks</h1>
+      <div class="todo-form">
+        <form class="form">
+          <input
+            type="text"
+            class="todo-input"
+            placeholder="Add a task"
+            autofocus
+          />
 
-        <div>
-            <div class="todo-complete-list">
-               
-                
-            </div>
-        </div>
-        
+          <button type="submit" class="todo-button">
+            <i class="fas fa-plus-square fa-2x"></i>
+          </button>
+        </form>
+      </div>
+      <div class="todo-uncompleted">Remaining</div>
+      <div>
+        <div class="todo-list"></div>
+      </div>
+      <div class="todo-completed">Completed</div>
+
+      <div>
+        <div class="todo-complete-list"></div>
+      </div>
     </div>
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>

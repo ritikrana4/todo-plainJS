@@ -1,0 +1,128 @@
+*:focus {
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.todo-container {
+  margin-top: 10px;
+  background-color: black;
+  width: 700px;
+}
+
+.todo-heading {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-left: 10px;
+  font-size: 70px;
+}
+
+.todo-form {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.todo-input {
+  width: 700px;
+  height: 65px;
+  border-radius: 10px;
+  border: white 1px solid;
+  padding: 5px;
+  padding-left: 7px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.todo-input:focus {
+  border: rgb(223, 42, 153) 1px solid;
+}
+
+.todo-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border: none;
+  margin-left: -50px;
+  color: white;
+  width: 26px;
+  height: 26px;
+}
+
+.todo-uncompleted {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-completed {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+li {
+  list-style-type: none;
+}
+
+.todo-completed {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+}
+.todo-list {
+  color: white;
+  margin-left: 10px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 650px;
+  background-color: rgb(22, 21, 21);
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+}
+.todo-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border: none;
+  margin-left: -36px;
+  color: white;
+  width: 26px;
+  height: 26px;
+}
+
+.todo-complete-list {
+  color: white;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+
+.delete-btn {
+}
+.delete-btn :hover {
+  color: rgb(223, 42, 153);
+}
