@@ -12,7 +12,7 @@ body {
 .todo-container {
   margin-top: 10px;
   background-color: black;
-  width: 700px;
+  width: 850px;
 }
 
 .todo-heading {
@@ -33,15 +33,15 @@ body {
 }
 
 .todo-input {
-  width: 700px;
-  height: 65px;
+  width: 800px;
+  height: 80px;
   border-radius: 10px;
   border: white 1px solid;
   padding: 5px;
-  padding-left: 7px;
+  padding-left: 20px;
   background-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
 }
 .todo-input:focus {
@@ -61,20 +61,14 @@ body {
 }
 
 .todo-uncompleted {
+  margin-top: 50px;
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 10px;
   margin-bottom: 20px;
 }
 
-.todo-completed {
-  font-family: "Poppins", sans-serif;
-  color: white;
-  font-size: 40px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
 li {
   list-style-type: none;
 }
@@ -83,8 +77,9 @@ li {
   margin-top: 50px;
   font-family: "Poppins", sans-serif;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 10px;
+  margin-bottom: 20px;
 }
 .todo-list {
   color: white;
@@ -95,11 +90,11 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 650px;
+  width: 765px;
   background-color: rgb(22, 21, 21);
   padding: 25px;
   border-radius: 10px;
-  font-size: 25px;
+  font-size: 40px;
   font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
 }
