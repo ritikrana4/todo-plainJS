@@ -3,6 +3,7 @@ const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
 const todoList = document.querySelector(".todo-list");
 const todoCompleteList = document.querySelector(".todo-complete-list");
+const date = document.querySelector(".date");
 
 todoButton.addEventListener("click", addTodo);
 document.addEventListener("DOMContentLoaded", getToDos);
@@ -107,6 +108,11 @@ function removeLocalTodos(todo) {
 }
 
 function getToDos() {
+  let d = new Date();
+
+  let mon = d.getMonth() + 1;
+  date.innerHTML = "" + d.getDate() + ":" + mon + ":" + d.getFullYear();
+
   let todos;
   if (localStorage.getItem("todos") === null) {
     todos = [];

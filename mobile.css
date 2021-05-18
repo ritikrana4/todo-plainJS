@@ -15,6 +15,19 @@ body {
   width: 850px;
 }
 
+.header-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.date {
+  margin-left: 420px;
+  color: white;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(236, 236, 34);
+}
+
 .todo-heading {
   font-family: "Poppins", sans-serif;
   color: white;
