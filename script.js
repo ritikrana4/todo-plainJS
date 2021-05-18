@@ -65,6 +65,7 @@ function deleteTodo(event) {
 
   if (item.classList[0] === "fas") {
     const todo = item.parentElement.parentElement;
+    console.log(todo);
     removeLocalTodos(todo);
     todo.remove();
   }
@@ -99,7 +100,8 @@ function removeLocalTodos(todo) {
   } else {
     todos = JSON.parse(localStorage.getItem("todos"));
   }
-  const todoIndex = todo.children[0].innerText;
+  const todoIndex = todo.children[1].innerText;
+  console.log(todoIndex);
   todos.splice(todos.indexOf(todoIndex), 1);
   localStorage.setItem("todos", JSON.stringify(todos));
 }
